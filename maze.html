@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Visualizer</title>
+    <link rel="stylesheet" href="table.css">
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url('imgs/background4.jpg');
+      }
+    </style>
+    <h3 style="position:absolute; right:8%;">Stack or Queue</h3>
+    <button type="button" class="button" style="padding:15px;">Run DFS</button>
+    <button type="button" class="button" style="padding:15px; left: 300px;">Run BFS</button>
+    <div class="wrapper">
+      <div class="tableDiv">
+        <table id="table">
+        </table>
+      </div>
+      <div class="stack">
+        <ul>
+          <li style="font-size: 13px; background-color: #DE1A0A; color: white; padding: 1px;">1-1</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="tables/mazeTable.js"></script>
+  <script type="text/javascript" src="Algorithms/DFS.js"></script>
+  <script type="text/javascript" src="Algorithms/BFS.js"></script>
+</html>
